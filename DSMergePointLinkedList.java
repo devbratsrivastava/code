@@ -1,4 +1,4 @@
-import java.io.*;
+/*import java.io.*;
 import java.math.*;
 import java.security.*;
 import java.text.*;
@@ -50,7 +50,7 @@ public class Solution {
                 bufferedWriter.write(sep);
             }
         }
-    }
+    }*/
 
     // Complete the findMergeNode function below.
 
@@ -81,7 +81,7 @@ public class Solution {
         return 0;
     }
 
-    private static final Scanner scanner = new Scanner(System.in);
+    /*private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -144,4 +144,4 @@ public class Solution {
 
         scanner.close();
     }
-}
+}*/
