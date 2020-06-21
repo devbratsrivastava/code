@@ -21,10 +21,7 @@ int main()
           {
               printf("%d ",f);
               f--;
-              for(int k=0;k<j;k++)
-              {
-                  //printf("%d ",k);
-              }
+              
           }
           }
           else
@@ -33,10 +30,7 @@ int main()
             {
               printf("%d ",f);
               f--;
-              for(int k=0;k<j;k++)
-              {
-                  //printf("%d ",k);
-              }
+              
             }
           }
           f=n;
