@@ -1,5 +1,6 @@
-public static Node lca(Node root, int v1, int v2) {
-      	// Write your code here.
+public static Node lca(Node root, int v1, int v2) 
+    {
+      	
           if(root==null)
           return root;
           else
