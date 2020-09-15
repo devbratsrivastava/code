@@ -9,7 +9,7 @@ while(len(list2)>0):
     x=min(list2)
     for i in range(len(list2)):
         list2[i]-=x
-    while(list2.count(0)):
+    while(list2.count(0)):#while 0 in list2:
         list2.remove(0)
     
     
