@@ -43,18 +43,18 @@ public class A1625
                     if(max<b[i].length())
                         max=b[i].length();
                 }
-                //System.out.print(max+" ");
+                //System.out.println(max);
                 //System.out.println();
                 for(int i=0;i<n;i++)
                 {
                     if(max>b[i].length())
                     {
-                        for(int j=0;j<=(max-b[i].length());j++)
+                        for(int j=b[i].length();j<max;j++)
                             b[i]="0"+b[i];
                     }
                 }
                 //for(int i=0;i<n;i++)
-                //System.out.print(b[i]+" ");
+                //System.out.println(b[i]);
                 //System.out.println();
                 String r="";
                 for(int i=0;i<b[0].length();i++)
