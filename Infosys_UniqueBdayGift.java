@@ -12,7 +12,7 @@ class Scratch {
             {
                 int total = 0;
                 for (int i = 1; i <= n; i++)
-                    total += (n / i);
+                    total += ((n / i)%1000000007);
                 System.out.println(total);
             }
             else
